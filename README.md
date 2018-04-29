@@ -12,3 +12,13 @@ Time series output of EuRoC MH_01_easy
 
 Time series output of an dataset with incorrect synchronization 
 ![alt text](https://github.com/jason2718/TimeSeriesAnalyzer/blob/master/Example/Incorrect_Synchronization.png)
+
+## Usage
+Put script in a ROS workspace, play the bagfile you collect, and execute
+```
+rosrun time_series_analyzer time_stamp_analysis.py
+```
+Make sure you change the access permission of ```.py``` file first:
+```
+chmod +x time_stamp_analysis.py
+```
