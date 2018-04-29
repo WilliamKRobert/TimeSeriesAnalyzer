@@ -7,3 +7,8 @@ Input: a ROS bag file recording your IMU and image data. Please change the topic
 Output: a plot showing the time series of incoming data.
 
 Example:
+Time series output of EuRoC MH_01_easy
+![alt text](https://github.com/jason2718/TimeSeriesAnalyzer/master/Example/EuRoC_time_series.png)
+
+Time series output of an dataset with incorrect synchronization 
+![alt text](https://github.com/jason2718/TimeSeriesAnalyzer/master/Example/Incorrect_Synchronization.png)
